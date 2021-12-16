@@ -23,7 +23,7 @@ function App() {
     wrapper.innerHTML = "";
     const ydoc = new Y.Doc();
     const provider = new WebsocketProvider(
-      "wss://localhost:1234",
+      "ws://localhost:1234",
       "prosemirror",
       ydoc,
     );
